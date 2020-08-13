@@ -7,7 +7,7 @@ from io import StringIO
 from .converter import XMLConverter, HTMLConverter, TextConverter, \
     PDFPageAggregator
 from .image import ImageWriter
-from .layout import LAParams
+from .layout import LAParams, LTTextBoxHorizontal
 from .pdfdevice import TagExtractor
 from .pdfinterp import PDFResourceManager, PDFPageInterpreter
 from .pdfpage import PDFPage
